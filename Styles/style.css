@@ -137,6 +137,21 @@ nav > .btn1:hover{
 }
 
 /* <!-- The vision of future --> */
+main{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+section:has(.future__vision){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future__box{
+    width: 32%;
+}
+
 .future__vision__card{
     display: flex;
     flex-direction: row;

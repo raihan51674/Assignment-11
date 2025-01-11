@@ -392,4 +392,135 @@ table tr{
     gap: 24px;
 }
 
+/*  responsive  */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 680px) {
+    header{
+        margin: 0px 10px;
+    }
+    .btn{
+        font-size: 17px;
+        padding: 10px;
+    }
+
+
+    .banner{
+        overflow: hidden;
+        flex-wrap: wrap-reverse;
+        border-radius: 0;
+        padding: 10px;
+        margin-top: 0;
+        gap: 5px;
+    }
+
+    .banner > .div__Banner{
+        width: 100%;
+        gap: 15px;
+    }
+    .banner .div__Banner > h1{
+        font-size: 1.2rem;
+        color: rgb(81, 76, 76);
+        width: 100%;
+        
+    }
+
+    .banner .div__Banner > button{
+        margin-bottom: 20px;
+    }
+
+    .PiLLARS__title{
+        margin: 10px;
+        font-size: 1.8rem;
+    }
+    .Pillars__card__items{
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .future__vision__card{
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 0px;
+    }
+
+    .future__vision > p{
+        margin: 10px;
+    }
+    .Dr__younus{
+        margin: 10px;
+    }
+    .td__des{
+        width: 60%;
+        padding: 10px;
+    }
+
+    .td__optional{
+        width: 40%;
+    }
+
+
+    .recent__news > p{
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .news__card{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .news__card > img{
+        padding: 10px;width: 100%;
+    }
+
+    .news__card1{
+        flex-wrap: wrap-reverse;
+    }
+
+    .taka{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .taka > p{
+        font-size: 1.7rem;
+    }
+
+    .Subs_newsletter{
+        padding: 10px;
+        border-radius: 0;
+    }
+
+
+    .input__filed > input{
+        width: 80%;
+    }
+    
+    .Newsletter{
+        margin-bottom: 0;
+    }
+
+    .new__des{
+        margin-bottom: 20px;
+    }
+
+    
+
+
+}
+
+
 
